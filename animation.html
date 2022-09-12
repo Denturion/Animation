@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 277 411.39">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+
+      .cls-2 {
+        fill: #fff200;
+      }
+
+      .cls-3 {
+        fill: #231f20;
+        font-family: Impact, Impact;
+        font-size: 72px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="Smiley">
+      <circle class="cls-2" cx="138.5" cy="138.5" r="136"/>
+      <path class="cls-1" d="M49.61,87.83s32.89-49.78,72.89,0"/>
+      <path class="cls-1" d="M151.97,87.83s32.89-49.78,72.89,0"/>
+      <path class="cls-1" d="M50.88,168.23H226.12s-50.8,117.78-142.35,51.56c0,0-25.78-16.44-32.89-51.56Z"/>
+    </g>
+    <text id="text" class="cls-3" transform="translate(45.17 351.01)"><tspan x="0" y="0">SMILE!</tspan></text>
+  </g>
+</svg>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+  
+  <script>
+gsap.to('#Smiley', {
+    duration: 2,
+    rotate: '360',
+    transformOrigin: '135px 135px',
+    repeat: -1,
+    repeatDelay: 2,
+});
+
+gsap.to('#text', {
+    duration: 2,
+    fill: 'yellow',
+    repeat: -1,
+    repeatDelay: 2,
+});
+
+      
+  </script>
